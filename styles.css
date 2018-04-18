@@ -1,0 +1,307 @@
+h1 {
+  color: white;
+  font-size: 4em;
+  font-family: "Benton Sans",'Helvetica', 'Roboto', sans-serif, bold;
+  font-style: italic;
+}
+
+h1:hover{
+  color: white;
+  font-size: 4em;
+  font-family: "Benton Sans",'Helvetica', 'Roboto', sans-serif, bold;
+  font-style: italic;
+}
+
+.headers {
+  color: gray;
+  letter-spacing: 2px;
+  font-size: 50px; 
+  position: fixed;
+  left: 0px;
+  top: 350px; 
+  transform: rotate(-90deg);
+  margin-left: 0px;
+  border: 0px;
+  padding: 0px;
+  display: inline-block;
+}
+
+
+
+body {
+  font-family:"Benton Sans",'Helvetica','Roboto',sans-serif;
+  margin: 50px;
+  background-color: #D58B7B; 
+}
+
+/* #FBEEE6 */
+
+
+.sidebar {
+  margin: 20px; 
+ }
+
+
+.work {
+  font-size: 1em;
+  letter-spacing: 6px;
+  line-height: 3;
+  position: fixed;
+  left: 60px; 
+  top: 160px;
+  text-align: left;
+  opacity: 0.5;
+}
+
+.work:hover {
+  font-size: 1em;
+  letter-spacing: 6px;
+  line-height: 3;
+  position: fixed;
+  left: 65px; 
+  top: 160px;
+  text-align: left;
+  opacity: 1;
+}
+
+
+
+.work-work {
+  font-size: 1em;
+  letter-spacing: 6px;
+  line-height: 3;
+  position: fixed;
+  left: 60px; 
+  top: 160px;
+  text-align: left;
+  opacity: 1;
+}
+
+.work-work:hover {
+  font-size: 1em;
+  letter-spacing: 6px;
+  line-height: 3;
+  position: fixed;
+  left: 65px; 
+  top: 160px;
+  text-align: left;
+  opacity: 0.5;
+}
+
+.about{
+  font-size: 1em;
+  letter-spacing: 6px;
+  line-height: 3;
+  position: fixed;
+  left: 60px; 
+  top: 200px;
+  text-align: left;
+  opacity: 0.5;
+}
+
+.about:hover {
+  font-size: 1em;
+  letter-spacing: 6px;
+  line-height: 3;
+  position: fixed;
+  left: 65px; 
+  top: 200px;
+  text-align: left;
+  opacity: 1;
+}
+
+.resume{
+  font-size: 1em;
+  letter-spacing: 6px;
+  line-height: 3;
+  position: fixed;
+  left: 60px; 
+  top: 240px;
+  text-align: left;
+  opacity: 0.5;
+
+}
+
+.resume:hover {
+  font-size: 1em;
+  letter-spacing: 6px;
+  line-height: 3;
+  position: fixed;
+  left: 65px; 
+  top: 240px;
+  text-align: left;
+  opacity: 1;
+}
+
+a:link {
+    color: white;
+      }
+      a:visited {
+    color: white;
+      }  
+      a:hover {
+    color: #FBEEE6;
+      } 
+      a:link {
+    text-decoration: none;
+      }
+
+      a:visited {
+    text-decoration: none;
+      }
+
+
+
+.mySlides {
+margin: 50px 50px 0px 50px;
+}
+
+
+.w3-button w3-black w3-display-left {
+}
+
+
+button {
+  display: inline-block;
+  padding: 5px 25px;
+  font-size: 20px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: lightgray;
+  background-color: white;
+  border: 2px solid lightgray;
+/*   border-radius: 15px; */
+/*   box-shadow: 0 9px #999; */
+  margin: 20px;
+}
+
+
+button:hover {
+  background-color: black;
+  color: white;
+}
+
+button:active {
+  background-color: lightgray;
+/*   box-shadow: 0 5px red; */
+  transform: translateY(4px);
+}
+
+
+
+.box {
+  overflow: scroll;
+  transition: all 1.5s;
+  display: inline-block;
+  width: 600px; 
+  height: 300px; 
+  margin: auto;
+}
+
+
+.inside {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+}
+
+.inside:hover{
+opacity: 0.25;
+transition: .5s ease;
+}
+
+
+.image {
+  display: block;
+  margin: 0 auto;
+  padding: 0px;
+  border: 0px;
+  
+}
+
+.overlay {
+  position: absolute;
+  top: 70px;
+  bottom: 50px;
+  left: 70px;
+  right: 50px;
+  height: 250px;
+  width: 250px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color:red;
+  border-radius: 100%;
+}
+
+
+.container {
+  position: relative;
+  display: inline-block;
+  text-align:center;
+  width: 400px;
+  height: 400px;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 30px;
+  font-family: 'Roboto', sans-serif;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+.scrollbox {
+  width:85%; 
+  background-color:white; 
+  height: 400px; 
+  overflow:scroll; 
+  overflow-style: marquee;
+  margin-left: 100px;
+  margin-top: 60px;
+  display: inline-block;
+  
+}
+
+
+.scrollimages {
+  width: 400px; 
+  height: 400px;
+  float:left;
+  background-color: white;
+}
+
+.scrollimages-flatland {
+  width: 400px; 
+  height: 400px;
+  float:left;
+  background-color: white;
+  margin-top: 50px;
+}
+
+
+.new {
+display: inline-block;
+}
+
+
+    display: block;
+    position: absolute;
+    top: 45%;
+    width: 30px;
+    z-index: 999999;
+    cursor: pointer;
+
+right: 11%;
+style="transform: translate3d(-9790px, 0px, 0px); transition-duration: 0ms;"
+class="slider--wrapper slider--frontpage swiper-container swiper-container-horizontal"
