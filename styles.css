@@ -47,10 +47,11 @@ body {
   letter-spacing: 6px;
   line-height: 3;
   position: fixed;
-  left: 60px; 
-  top: 160px;
+  left: 40px; 
+  top: 140px;
   text-align: left;
   opacity: 0.5;
+  transform: rotate(-65deg);
 }
 
 .work:hover {
@@ -58,10 +59,11 @@ body {
   letter-spacing: 6px;
   line-height: 3;
   position: fixed;
-  left: 65px; 
-  top: 160px;
+  left: 40px; 
+  top: 142px;
   text-align: left;
   opacity: 1;
+  transform: rotate(-65deg);
 }
 
 
@@ -71,10 +73,11 @@ body {
   letter-spacing: 6px;
   line-height: 3;
   position: fixed;
-  left: 60px; 
-  top: 160px;
+  left: 40px; 
+  top: 140px;
   text-align: left;
   opacity: 1;
+  transform: rotate(-65deg);
 }
 
 .work-work:hover {
@@ -82,10 +85,11 @@ body {
   letter-spacing: 6px;
   line-height: 3;
   position: fixed;
-  left: 65px; 
-  top: 160px;
+  left: 40px; 
+  top: 142px;
   text-align: left;
   opacity: 0.5;
+  transform: rotate(-65deg);
 }
 
 .about{
@@ -93,10 +97,11 @@ body {
   letter-spacing: 6px;
   line-height: 3;
   position: fixed;
-  left: 60px; 
-  top: 200px;
+  left: 70px; 
+  top: 160px;
   text-align: left;
   opacity: 0.5;
+  transform: rotate(-65deg);
 }
 
 .about:hover {
@@ -104,10 +109,11 @@ body {
   letter-spacing: 6px;
   line-height: 3;
   position: fixed;
-  left: 65px; 
-  top: 200px;
+  left: 70px;
+  top: 160px;
   text-align: left;
   opacity: 1;
+  transform: rotate(-65deg);
 }
 
 .resume{
@@ -115,10 +121,11 @@ body {
   letter-spacing: 6px;
   line-height: 3;
   position: fixed;
-  left: 60px; 
-  top: 240px;
+  left: 100px; 
+  top: 185px;
   text-align: left;
   opacity: 0.5;
+  transform: rotate(-65deg);
 
 }
 
@@ -127,10 +134,11 @@ body {
   letter-spacing: 6px;
   line-height: 3;
   position: fixed;
-  left: 65px; 
-  top: 240px;
+  left: 100px; 
+  top: 185px;
   text-align: left;
   opacity: 1;
+  transform: rotate(-65deg);
 }
 
 a:link {
