@@ -390,11 +390,10 @@ position: fixed;
 }
 
 .background{
-  opacity: 0.5; 
+  opacity: 1; 
   font-size: 1em;
-  transform: rotate(-90deg);
+/*   transform: rotate(-90deg); */
   color: white;
-  position: fixed;
-  left: 50px;
+  line-height: 1.6;
 }
 
