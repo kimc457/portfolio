@@ -12,10 +12,26 @@ h1:hover{
   font-style: italic;
 }
 
+h2{
+  font-size: 1.5em;
+  font-family: "Benton Sans",'Helvetica', 'Roboto', sans-serif, bold;
+  letter-spacing: 0.6em;
+}
+
+h3{
+  font-size: 0.8em;
+  font-family: "Benton Sans",'Helvetica', 'Roboto', sans-serif, bold;
+  letter-spacing: 0.1em;
+  margin-right: 280px;
+  margin-left: 280px;
+  margin-top: 50px;
+}
+
+
 .headers {
-  color: gray;
-  letter-spacing: 2px;
-  font-size: 50px; 
+  color: #FBEEE6 ;
+  letter-spacing: 1em;
+  font-size: 1.5em; 
   position: fixed;
   left: 0px;
   top: 350px; 
@@ -31,11 +47,15 @@ h1:hover{
 body {
   font-family:"Benton Sans",'Helvetica','Roboto',sans-serif;
   margin: 50px;
-  background-color: #D58B7B; 
+  background-color:  #D58B7B ; 
+  cursor: url(https://cdn.glitch.com/7b0afbac-81b1-4ff7-9eb5-a13de6ff18d4%2FCIRCLELOGO.png?1524090248411), auto;
+  overflow: auto;
+
 }
-
+    
+/* #F0C9B0  */
 /* #FBEEE6 */
-
+/* #D58B7B */
 
 .sidebar {
   margin: 20px; 
@@ -43,103 +63,124 @@ body {
 
 
 .work {
-  font-size: 1em;
-  letter-spacing: 6px;
+  font-size: 1.2em;
+  letter-spacing: 10px;
   line-height: 3;
   position: fixed;
-  left: 40px; 
-  top: 140px;
+  left: 30px; 
+  top: 60px;
   text-align: left;
-  opacity: 0.5;
+  opacity: 1;
   transform: rotate(-65deg);
 }
 
 .work:hover {
-  font-size: 1em;
-  letter-spacing: 6px;
+  font-size: 1.2em;
+  letter-spacing: 10px;
   line-height: 3;
   position: fixed;
-  left: 40px; 
-  top: 142px;
+  left: 30px; 
+  top: 60px;
   text-align: left;
   opacity: 1;
   transform: rotate(-65deg);
+  
 }
 
-
-
-.work-work {
-  font-size: 1em;
-  letter-spacing: 6px;
-  line-height: 3;
-  position: fixed;
-  left: 40px; 
-  top: 140px;
-  text-align: left;
-  opacity: 1;
-  transform: rotate(-65deg);
-}
-
-.work-work:hover {
-  font-size: 1em;
-  letter-spacing: 6px;
-  line-height: 3;
-  position: fixed;
-  left: 40px; 
-  top: 142px;
-  text-align: left;
-  opacity: 0.5;
-  transform: rotate(-65deg);
-}
 
 .about{
-  font-size: 1em;
-  letter-spacing: 6px;
+  font-size: 1.2em;
+  letter-spacing: 10px;
   line-height: 3;
   position: fixed;
   left: 70px; 
-  top: 160px;
+  top: 70px;
   text-align: left;
-  opacity: 0.5;
+  opacity: 1;
   transform: rotate(-65deg);
 }
 
 .about:hover {
-  font-size: 1em;
-  letter-spacing: 6px;
+  font-size: 1.2em;
+  letter-spacing: 10px;
   line-height: 3;
   position: fixed;
   left: 70px;
-  top: 160px;
+  top: 70px;
   text-align: left;
   opacity: 1;
   transform: rotate(-65deg);
 }
 
 .resume{
-  font-size: 1em;
-  letter-spacing: 6px;
+  font-size: 1.2em;
+  letter-spacing: 10px;
   line-height: 3;
   position: fixed;
   left: 100px; 
-  top: 185px;
+  top: 80px;
   text-align: left;
-  opacity: 0.5;
+  opacity: 1;
   transform: rotate(-65deg);
 
 }
 
 .resume:hover {
-  font-size: 1em;
-  letter-spacing: 6px;
+  font-size: 1.2em;
+  letter-spacing: 10px;
   line-height: 3;
   position: fixed;
   left: 100px; 
-  top: 185px;
+  top: 80px;
   text-align: left;
   opacity: 1;
   transform: rotate(-65deg);
 }
+
+
+.sidebar-1 {
+   margin: 20px; 
+}
+
+.behance {
+  font-size: 0.8em;
+  letter-spacing: 6px;
+  line-height: 3;
+  position: fixed;
+  right: 65px; 
+  top: 90px;
+  text-align: left;
+  opacity: 1;
+  transform: rotate(65deg);
+}
+
+
+.insta{
+    font-size: 0.8em;
+  letter-spacing: 6px;
+  line-height: 3;
+  position: fixed;
+  right: 100px; 
+  top: 100px;
+  text-align: left;
+  opacity: 1;
+  transform: rotate(65deg);
+}
+
+
+.link{
+  font-size: 0.8em;
+  letter-spacing: 6px;
+  line-height: 3;
+  position: fixed;
+  right: 10px; 
+  top: 95px;
+  text-align: left;
+  opacity: 1;
+  transform: rotate(65deg);
+}
+
+
 
 a:link {
     color: white;
@@ -148,7 +189,7 @@ a:link {
     color: white;
       }  
       a:hover {
-    color: #FBEEE6;
+    color: #F75CA2;
       } 
       a:link {
     text-decoration: none;
@@ -164,9 +205,6 @@ a:link {
 margin: 50px 50px 0px 50px;
 }
 
-
-.w3-button w3-black w3-display-left {
-}
 
 
 button {
@@ -193,10 +231,8 @@ button:hover {
 
 button:active {
   background-color: lightgray;
-/*   box-shadow: 0 5px red; */
   transform: translateY(4px);
 }
-
 
 
 .box {
@@ -221,14 +257,6 @@ transition: .5s ease;
 }
 
 
-.image {
-  display: block;
-  margin: 0 auto;
-  padding: 0px;
-  border: 0px;
-  
-}
-
 .overlay {
   position: absolute;
   top: 70px;
@@ -239,7 +267,7 @@ transition: .5s ease;
   width: 250px;
   opacity: 0;
   transition: .5s ease;
-  background-color:red;
+  background-color:#D58B7B ;
   border-radius: 100%;
 }
 
@@ -258,8 +286,9 @@ transition: .5s ease;
 
 .text {
   color: white;
-  font-size: 30px;
-  font-family: 'Roboto', sans-serif;
+  font-size: 1.5em;
+  font-style: italic;
+  font-family: "Benton Sans", 'Roboto', sans-serif;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -300,16 +329,72 @@ transition: .5s ease;
 
 .new {
 display: inline-block;
+  margin: 0 auto;
 }
 
 
-    display: block;
-    position: absolute;
-    top: 45%;
-    width: 30px;
-    z-index: 999999;
-    cursor: pointer;
+.home {
+cursor: all-scroll;
+}
 
-right: 11%;
-style="transform: translate3d(-9790px, 0px, 0px); transition-duration: 0ms;"
-class="slider--wrapper slider--frontpage swiper-container swiper-container-horizontal"
+.cursor{
+cursor: url(https://cdn.glitch.com/7b0afbac-81b1-4ff7-9eb5-a13de6ff18d4%2FCIRCLELOGO.png?1524090248411) "10px";
+}
+
+
+
+.drag {
+position: fixed;
+  display: block;
+}
+
+
+
+
+/* .work-work {
+  font-size: 1em;
+  letter-spacing: 6px;
+  line-height: 3;
+  position: fixed;
+  left: 40px; 
+  top: 100px;
+  text-align: left;
+  opacity: 1;
+  transform: rotate(-65deg);
+}
+
+.work-work:hover {
+  font-size: 1em;
+  letter-spacing: 6px;
+  line-height: 3;
+  position: fixed;
+  left: 40px; 
+  top: 100px;
+  text-align: left;
+  opacity: 0.5;
+  transform: rotate(-65deg);
+} */
+
+.art{
+  margin-top: 100px;
+}
+
+
+.logospin {
+    position: fixed;
+    cursor: hand;
+    bottom: 10px;
+    right: 20px;
+    width: 90px;
+    height: 110px;
+}
+
+.background{
+  opacity: 0.5; 
+  font-size: 1em;
+  transform: rotate(-90deg);
+  color: white;
+  position: fixed;
+  left: 50px;
+}
+
