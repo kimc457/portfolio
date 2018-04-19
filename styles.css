@@ -392,7 +392,6 @@ position: fixed;
 .background{
   opacity: 1; 
   font-size: 1em;
-/*   transform: rotate(-90deg); */
   color: white;
   line-height: 1.6;
 }
